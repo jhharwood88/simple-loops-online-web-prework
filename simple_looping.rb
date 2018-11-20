@@ -4,7 +4,7 @@ def loop_iterator(number_of_times)
   counter = 0
   number_of_times = gets
   phrase = "Welcome to Flatiron School's Web Development Course!"
-  loop    
+  loop do    
 end
 
 def times_iterator(number_of_times)
