@@ -2,9 +2,11 @@
 
 def loop_iterator(number_of_times)
   counter = 0
-  number_of_times = gets.chomp
+ loop do
   phrase = "Welcome to Flatiron School's Web Development Course!"
   puts phrase
+  counter +=1
+  
 end
 
 def times_iterator(number_of_times)
