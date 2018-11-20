@@ -15,30 +15,15 @@ end
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 def times_iterator(number_of_times)
-  # code your solution here using the "times" keyword
   phrase = "Welcome to Flatiron School's Web Development Course!"
   
   7.times do
     puts phrase
   end
 end
+
+
 
 def while_iterator(number_of_times)
   counter = 0
@@ -49,6 +34,8 @@ def while_iterator(number_of_times)
   end
 end
 
+
+
 def until_iterator(number_of_times)
   counter = 0
   until counter == 7 do
@@ -57,6 +44,8 @@ def until_iterator(number_of_times)
     counter += 1
   end
 end
+
+
 
 def for_iterator(number_of_times)
   phrase_count = 1..7
