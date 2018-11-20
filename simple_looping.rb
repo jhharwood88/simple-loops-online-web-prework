@@ -2,7 +2,7 @@
 
 def loop_iterator(number_of_times)
   counter = 0
-  number_of_times = gets
+  number_of_times = .chomp
   phrase = "Welcome to Flatiron School's Web Development Course!"
   puts phrase
 end
